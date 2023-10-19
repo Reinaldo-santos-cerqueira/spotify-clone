@@ -4,15 +4,15 @@ import React from 'react';
 import {Splash} from './src/pages/splash/splash';
 
 function App(): JSX.Element {
-  const Stack = createNativeStackNavigator();
+	const Stack = createNativeStackNavigator();
 
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Splash" component={Splash} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+	return (
+		<NavigationContainer>
+			<Stack.Navigator>
+				<Stack.Screen name="Splash" component={Splash} options={{headerShown: false}} />
+			</Stack.Navigator>
+		</NavigationContainer>
+	);
 }
 
 export default App;
