@@ -1,6 +1,10 @@
 import React from 'react';
-import {View} from 'react-native';
+import Box from '../../components/box/box';
 
 export function Splash() {
-  return <View />;
+	return(
+		<Box>
+      
+		</Box>
+	);
 }
